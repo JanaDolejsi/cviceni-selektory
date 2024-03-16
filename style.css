@@ -49,3 +49,20 @@ body {
 }
 
 /* Tady napište své styly */
+
+.contact.contact:nth-last-child(2n){
+  background-color: white;
+}
+
+.photo{
+  border: 3px;
+  border-style: solid;
+  border-color: lightblue;
+}
+
+.message:hover,
+.call:hover{
+  transform:scale(1.3);
+  cursor: pointer;
+}
+
